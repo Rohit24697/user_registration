@@ -71,6 +71,7 @@ class DatabaseService {
     return await db.query("users", limit: 10);
   }
 
+  ///UPDATE USER
   Future<void> updateUser({required int id, required String emailId, required String password}) async {
     final db = await database;
     await db.update(
@@ -81,6 +82,7 @@ class DatabaseService {
     );
   }
 
+  ///DELETE USER
   Future<void> deleteUser(int id) async {
     final db = await database;
     await db.delete('users', where: 'id = ?', whereArgs: [id]);

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:registration_app/services/shared_preferences_service.dart';
 import 'package:registration_app/sign_up_personal_info_page.dart';
 import 'package:registration_app/widget/base_page_layout_widget.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
 
 import 'forget_password_page.dart';
 import 'home_screen.dart';

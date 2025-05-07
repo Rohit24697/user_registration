@@ -120,42 +120,6 @@ class _UserListState extends State<UserList> {
                 ],
               ),
             ),
-            // Column(
-            //   crossAxisAlignment: CrossAxisAlignment.start,
-            //   children: [
-            //     Text(
-            //       item['emailId'] as String,
-            //       style: const TextStyle(
-            //         fontSize: 18,
-            //         fontWeight: FontWeight.bold,
-            //         color: Colors.orange,
-            //       ),
-            //     ),
-            //     const SizedBox(height: 6),
-            //     Text(
-            //       "Password: ${item['password']}",
-            //       style: const TextStyle(
-            //         fontSize: 14,
-            //         color: Colors.black87,
-            //       ),
-            //     ),
-            //
-            //     Row(
-            //       mainAxisAlignment: MainAxisAlignment.end,
-            //       children: [
-            //         IconButton(
-            //           icon: const Icon(Icons.edit, color: Colors.blue),
-            //           onPressed: () => _showEditDialog(item),
-            //         ),
-            //         const SizedBox(width: 10),
-            //         IconButton(
-            //           icon: const Icon(Icons.delete, color: Colors.red),
-            //           onPressed: () => _deleteUser(item['id'] as int),
-            //         ),
-            //       ],
-            //     )
-            //   ],
-            // ),
           );
         },
       ),
