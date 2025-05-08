@@ -235,3 +235,5 @@ class _SignUpPersonalInfoPageState extends State<SignUpPersonalInfoPage> {
   }
 }
 
+
+

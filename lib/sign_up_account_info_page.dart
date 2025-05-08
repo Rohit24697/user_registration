@@ -336,3 +336,4 @@ class _SignUpAccountInfoPageState extends State<SignUpAccountInfoPage> {
     );
   }
 }
+
