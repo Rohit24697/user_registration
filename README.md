@@ -4,13 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a Registration App. asked as a assignment task in one of IT company. I tried to figure out the solution.
 
-A few resources to get you started if this is your first Flutter project:
+I have covered below points in this app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Kotlin, Data binding, View binding, SQLite database, validations, Third party APi, SharedPreferences etc
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image alt](https://github.com/Rohit24697/user_registration/blob/main/Screenshot_20250508-145409.jpg?raw=true)
