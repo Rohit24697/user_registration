@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:registration_app/services/shared_preferences_service.dart';
 import 'package:registration_app/splash_screen.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await SharedPreferencesService().initSharedPref();
   runApp(const MyApp());
 }
 

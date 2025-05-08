@@ -1,4 +1,3 @@
-
 import 'package:country_code_picker_plus/country_code_picker_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:registration_app/services/shared_preferences_service.dart';
@@ -288,6 +287,11 @@ class _SignUpAccountInfoPageState extends State<SignUpAccountInfoPage> {
                                     saveData();
                                     _getAllData();
                                     showSnackbar();
+                                    Navigator.popUntil(context, (route) => route.isFirst);
+                                    Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => const LoginPage()),
+                                    );
                                   } else {
                                     ScaffoldMessenger.of(context).showSnackBar(
                                       const SnackBar(content: Text("Please fill all required fields")),
@@ -304,24 +308,24 @@ class _SignUpAccountInfoPageState extends State<SignUpAccountInfoPage> {
 
                             const SizedBox(height: 15),
 
-                            TextButton(
-                              onPressed: () {
-                                Navigator.popUntil(context, (route) => route.isFirst);
-                                Navigator.pushReplacement(
-                                  context,
-                                  MaterialPageRoute(builder: (context) => const LoginPage()),
-                                );
-                              },
-                              child: const Text(
-                                'Back to Login',
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black87,
-                                  decoration: TextDecoration.underline,
-                                ),
-                              ),
-                            ),
+                            // TextButton(
+                            //   onPressed: () {
+                            //     Navigator.popUntil(context, (route) => route.isFirst);
+                            //     Navigator.pushReplacement(
+                            //       context,
+                            //       MaterialPageRoute(builder: (context) => const LoginPage()),
+                            //     );
+                            //   },
+                            //   child: const Text(
+                            //     'Back to Login',
+                            //     style: TextStyle(
+                            //       fontSize: 15,
+                            //       fontWeight: FontWeight.bold,
+                            //       color: Colors.black87,
+                            //       decoration: TextDecoration.underline,
+                            //     ),
+                            //   ),
+                            // ),
                           ],
                         ),
                       ),

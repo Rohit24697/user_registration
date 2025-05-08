@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:registration_app/services/shared_preferences_service.dart';
-
 import 'home_screen.dart';
 import 'login_page.dart';
 
