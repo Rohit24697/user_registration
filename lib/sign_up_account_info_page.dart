@@ -305,27 +305,6 @@ class _SignUpAccountInfoPageState extends State<SignUpAccountInfoPage> {
                                         color: Colors.black87)),
                               ),
                             ),
-
-                            const SizedBox(height: 15),
-
-                            // TextButton(
-                            //   onPressed: () {
-                            //     Navigator.popUntil(context, (route) => route.isFirst);
-                            //     Navigator.pushReplacement(
-                            //       context,
-                            //       MaterialPageRoute(builder: (context) => const LoginPage()),
-                            //     );
-                            //   },
-                            //   child: const Text(
-                            //     'Back to Login',
-                            //     style: TextStyle(
-                            //       fontSize: 15,
-                            //       fontWeight: FontWeight.bold,
-                            //       color: Colors.black87,
-                            //       decoration: TextDecoration.underline,
-                            //     ),
-                            //   ),
-                            // ),
                           ],
                         ),
                       ),
